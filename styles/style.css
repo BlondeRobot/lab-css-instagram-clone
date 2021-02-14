@@ -59,6 +59,12 @@ body {
   
 }
 
+/* @media only screen and (max-width: 600px) {
+  body {
+    font-size: 12px;
+    flex-direction: column;
+  } */
+
 #section-container {
 
    display: flex;
@@ -67,6 +73,11 @@ body {
    align-items: flex-end;
    
 }
+
+/* @media (max-width: 600px) {
+  #section-container  {
+    flex-direction: column-reverse;
+  } */
 
 #phones {
   width: 30%;
@@ -127,6 +138,10 @@ body {
   padding-bottom: 0.75rem;
 }
 
+#capture b {
+  font-weight: bold;
+}
+
 #buttons {
   display: flex;
   flex-direction: row;
@@ -160,3 +175,8 @@ footer ul {
 footer ul :last-child {
   color: grey;
 }
+
+/* @media (max-width: 600px) {
+  footer ul {
+    flex-wrap: wrap;
+  } */
